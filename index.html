@@ -36,13 +36,6 @@
     </div>
     
 
-    <script>
-        const API_URL = "https://live-metal-prices.p.rapidapi.com/v1/latest/XAU,XAG,PA,PL,GBP,EUR/EUR";
-        const API_HEADERS = {
-            "x-rapidapi-host": "live-metal-prices.p.rapidapi.com",
-            "x-rapidapi-key": "1173c4e4e8msh60ac3970085f7ccp11a4efjsn4ca203d103d8"
-        };
-
         async function fetchGoldPrice() {
     try {
         const response = await fetch(API_URL, {
